@@ -1,0 +1,35 @@
+Principais Comandos para subir um repositorio
+
+- Git clone
+Esse comando Git cria uma cópia exata de um repositório já existente.
+
+- Git status
+
+- Git add
+diciona os arquivos especificados de código ao seu repositório, 
+sejam arquivos novos ou arquivos anteriores que foram alterados. 
+
+- Git commit
+O git commit executa o commit dos arquivos que foram adicionados e cria 
+uma nova revisão com um log. Por outro lado, se você não adicionar 
+nenhum arquivo, o git não fará o commit de nada.
+
+GIT COMMIT -M "Seu commit vai AQUI! ;)"
+(Não esqueça o -M)
+
+-Git push
+Esse comando serve para subir suas modificações para um 
+repositório remoto conectado anteriormente com git remote.
+
+GIT PUSH ORIGIN nomedaBranch
+
+- Git pull
+O comando Git pull baixa o conteúdo (não os metadados) do que 
+foi alterado no repositório remoto para o seu repositório local e 
+imediatamente atualiza seu contreúdo para a última versão.
+
+GIT PULL ORIGIN nomedaBranch
+
+Link de ajuda:
+
+https://www.codigofonte.com.br/artigos/top-25-comandos-do-git
